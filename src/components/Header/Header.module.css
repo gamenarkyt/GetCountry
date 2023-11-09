@@ -1,0 +1,43 @@
+.header {
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  padding: 0 0.5rem;
+  background-color: var(--background-2);
+
+  .iconmenu {
+    width: 2rem;
+    height: 2rem;
+
+    transition: transform 0.3s ease-out;
+  }
+  .iconmenu_opened {
+    transform: rotate(180deg);
+  }
+
+  .sitename {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .sidebar_container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 3rem;
+    left: 0;
+
+    background-color: var(--background-popup);
+    backdrop-filter: blur(10px);
+    .sidebar {
+      width: 15rem;
+      height: 20rem;
+
+      background-color: firebrick;
+      /* background-color: var(--background); */
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.resultlist {
+  width: 100%;
+  height: fit-content;
+
+  border: var(--border);
+  border-radius: var(--border-radius);
+}

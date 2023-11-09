@@ -1,0 +1,9 @@
+.textarea {
+  width: 18rem;
+  height: 8rem;
+  padding: 5px;
+  color: var(--foreground);
+  background-color: var(--background-2);
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
