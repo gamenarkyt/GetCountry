@@ -1,4 +1,4 @@
-import { FC, MutableRefObject } from "react";
+import { FC } from "react";
 import styles from "./TextArea.module.css";
 
 interface IProps {

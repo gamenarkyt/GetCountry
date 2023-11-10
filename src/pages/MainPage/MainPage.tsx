@@ -2,7 +2,7 @@ import styles from "./MainPage.module.css";
 import { Header } from "@/components/Header/Header";
 import { ResultList } from "@/components/business/ResultList/ResultList";
 import { TextArea } from "@/components/ui/TextArea/TextArea";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 export const MainPage = () => {
   const [text, setText] = useState("");
