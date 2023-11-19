@@ -22,6 +22,7 @@ export const MainPage = () => {
         </button>
         <ResultList ipList={socksList} />
       </div>
+      <a href="#">erer</a>
     </div>
   );
 };
